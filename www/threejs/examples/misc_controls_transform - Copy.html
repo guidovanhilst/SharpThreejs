@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js webgl - transform controls</title>
+		<meta charset="utf-8">
+		<style>
+			body {
+				margin: 0px;
+				background-color: #000000;
+				color: #fff;
+				font-family:Monospace;
+				text-align: center;
+				font-size: 15px;
+				line-height: 30px;
+				overflow: hidden;
+			}
+			#info {
+				position: absolute;
+				top: 0px; width: 100%;
+				padding: 15px;
+				z-index:100;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="info">
+		"W" translate | "E" rotate | "R" scale | "+" increase size | "-" decrease size<br />
+		Press "Q" twice to toggle world/local space
+		</div>
+
+        <script src="../build/three.min.js"></script>
+        <script src="js/controls/TrackballControls.js"></script>
+        <script src="js/controls/TransformControls.js"></script>
+
+        <script src="js/effects/AsciiEffect.js"></script>
+        <script src="js/renderers/Projector.js"></script>
+        <script src="js/renderers/CanvasRenderer.js"></script>
+        <script src="js/libs/stats.min.js"></script>
+        <script src="../../js/glMatrix-0.9.5.min.js"></script>
+        <script src="../../js/bridge.js"></script>
+        <script src="../../js/cube3D.js"></script>
+
+	</body>
+</html>

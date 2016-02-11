@@ -1,0 +1,7 @@
+{
+    "output": "..\\www\\js",
+    "generateTypeScript": true,
+    "preserveMemberCase": false,
+    "fileName": "ThreejsDemo.js",
+    "outputBy" :  "Project"
+}

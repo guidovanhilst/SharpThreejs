@@ -1,0 +1,1104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bridge.Bootstrap3</name>
+    </assembly>
+    <members>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Affix(Bridge.jQuery2.jQuery)">
+            <summary>
+            Initializes an affix with default options.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Affix(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.AffixOptions)">
+            <summary>
+            Initializes an affix with the options object.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="options"></param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Alert(Bridge.jQuery2.jQuery)">
+            <summary>
+            Wraps all alerts with close functionality. To have your alerts animate out when closed, make sure they have the .fade and .in class already applied to them.
+            An data-dismiss="alert" attribute is still required.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Alert(Bridge.jQuery2.jQuery,System.String)">
+            <summary>
+            Performs an operation on an alert. Actually, only "close" is supported.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="operation">An operation string. Actually, only "close" is supported.</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Alert(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.AlertOperation)">
+            <summary>
+            Performs an operation on an alert. Actually, only "close" is supported.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="operation">An operation. Actually, only "close" is supported.</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.AlertClose(Bridge.jQuery2.jQuery)">
+            <summary>
+            Closes an alert.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Button(Bridge.jQuery2.jQuery)">
+            <summary>
+            Enable buttons.
+            Data attributes are still required.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Button(Bridge.jQuery2.jQuery,System.String)">
+            <summary>
+            The effect of this method depends on the "str" parameter.
+            The "str" parameter could be an operation string: "toggle", "loading", "reset"; or an arbitrary string - in that case it resets button state - swaps text to any data defined text state.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="str">It could be an operation string: "toggle", "loading", "reset"; or an arbitrary string - in that case it resets button state - swaps text to any data defined text state.</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Button(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.ButtonOperation)">
+            <summary>
+            Does something with a button - "loading", "reset" or "toggle" operations.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="operation"></param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.ButtonLoading(Bridge.jQuery2.jQuery)">
+            <summary>
+            Sets button state to loading - disables button and swaps text to loading text. Loading text should be defined on the button element using the data attribute data-loading-text. 
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.ButtonReset(Bridge.jQuery2.jQuery)">
+            <summary>
+            Resets button state - swaps text to original text.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.ButtonToggle(Bridge.jQuery2.jQuery)">
+            <summary>
+            Toggles push state. Gives the button the appearance that it has been activated.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Carousel(Bridge.jQuery2.jQuery)">
+            <summary>
+            Initializes the carousel with default options and starts cycling through items.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Carousel(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.CarouselOptions)">
+            <summary>
+            Initializes the carousel with an options object and starts cycling through items.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="options">The carousel options</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Carousel(Bridge.jQuery2.jQuery,System.String)">
+            <summary>
+            Does something with the carousel - "cycle", "next", "pause" or "prev".
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="operation">The operation</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Carousel(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.CarouselOperation)">
+            <summary>
+            Does something with the carousel - "cycle", "next", "pause" or "prev".
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="operation">The operation</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.CarouselCycle(Bridge.jQuery2.jQuery)">
+            <summary>
+            Cycles through the carousel items from left to right.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.CarouselNext(Bridge.jQuery2.jQuery)">
+            <summary>
+            Cycles to the next item.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.CarouselPause(Bridge.jQuery2.jQuery)">
+            <summary>
+            Stops the carousel from cycling through items.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.CarouselPrev(Bridge.jQuery2.jQuery)">
+            <summary>
+            Cycles to the previous item.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Carousel(Bridge.jQuery2.jQuery,System.Int32)">
+            <summary>
+            Cycles the carousel to a particular frame (0 based, similar to an array).
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="index">The index of the frame</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Collapse(Bridge.jQuery2.jQuery)">
+            <summary>
+            Enables the collapse functionality. 
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Collapse(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.CollapseOptions)">
+            <summary>
+            Activates your content as a collapsible element.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="options">Collapse options</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Collapse(Bridge.jQuery2.jQuery,System.String)">
+            <summary>
+            Does something with the collapsible element. It might be "hide", "show" and "toggle".
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="operation">The operation</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Collapse(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.CollapseOperation)">
+            <summary>
+            Does something with the collapsible element. It might be "hide", "show" and "toggle".
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="operation">The operation</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.CollapseHide(Bridge.jQuery2.jQuery)">
+            <summary>
+            Hides a collapsible element.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.CollapseShow(Bridge.jQuery2.jQuery)">
+            <summary>
+            Shows a collapsible element
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.CollapseToggle(Bridge.jQuery2.jQuery)">
+            <summary>
+            Toggles a collapsible element to shown or hidden.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Popover(Bridge.jQuery2.jQuery)">
+            <summary>
+            Enables the Bootstrap Popover functionality on an element collection.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Popover(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.PopoverOptions)">
+            <summary>
+            Initializes popovers for an element collection.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="options">The options</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Popover(Bridge.jQuery2.jQuery,System.String)">
+            <summary>
+            Does something with a popover - "show", "hide", "toggle" or "destroy".
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="operation">The operation to be done</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Popover(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.PopupOperation)">
+            <summary>
+            Does something with a popover - "show", "hide", "toggle" or "destroy".
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="operation">The operation to be done</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.PopoverDestroy(Bridge.jQuery2.jQuery)">
+            <summary>
+            Hides and destroys an element's popover.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.PopoverHide(Bridge.jQuery2.jQuery)">
+            <summary>
+            Hides an element's popover.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.PopoverShow(Bridge.jQuery2.jQuery)">
+            <summary>
+            Reveals an element's popover.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.PopoverToggle(Bridge.jQuery2.jQuery)">
+            <summary>
+            Toggles an element's popover.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.ScrollSpy(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.ScrollSpyOptions)">
+            <summary>
+            Adds the ScrollSpy behavior on the element.
+            </summary>
+            <param name="instance">The jQuery object to spy scroll on</param>
+            <param name="options">The ScrollSpy options - a target (nav) and an offset</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.ScrollSpy(Bridge.jQuery2.jQuery,System.String)">
+            <summary>
+            Calls the ScrollSpy operation. The only operation is supported - "refresh".
+            </summary>
+            <param name="instance">The jQuery object with a ScrollSpy</param>
+            <param name="operation">The operation. Only "refresh" is supported.</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.ScrollSpy(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.ScrollSpyOperation)">
+            <summary>
+            Calls the ScrollSpy operation. The only operation is supported - "refresh".
+            </summary>
+            <param name="instance">The jQuery object with a ScrollSpy</param>
+            <param name="operation">The operation. Only "refresh" is supported.</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.ScrollSpyRefresh(Bridge.jQuery2.jQuery)">
+            <summary>
+            Refreshes the ScrollSpy element. It should be done if adding or removing of elements from the DOM.
+            </summary>
+            <param name="instance">The jQuery object with a ScrollSpy</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Dropdown(Bridge.jQuery2.jQuery)">
+            <summary>
+            Call the dropdowns via JavaScript.
+            A data-toggle="dropdown" attribute is still required.
+            </summary>
+            <param name="instance">The jQuery object with a dropdown or dropdowns</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Dropdown(Bridge.jQuery2.jQuery,System.String)">
+            <summary>
+            Does something with a dropdown. Actually, the only operation is supported at this point - "toggle".
+            </summary>
+            <param name="instance">The jQuery object with a dropdown or dropdowns</param>
+            <param name="operation">The operation. Only "toggle" is supported.</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Dropdown(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.DropdownOperation)">
+            <summary>
+            Does something with a dropdown. Actually, the only operation is supported at this point - "toggle".
+            </summary>        
+            <param name="instance">The jQuery object with a dropdown or dropdowns</param>
+            <param name="operation">The operation. Only "toggle" is supported.</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.DropdownToggle(Bridge.jQuery2.jQuery)">
+            <summary>
+            Toggles the dropdown menu of a given navbar or tabbed navigation.
+            </summary>
+            <param name="instance">The jQuery object with a dropdown or dropdowns</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Modal(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.ModalOptions)">
+            <summary>
+            Either toggles, shows or hides a modal. Depends on the "operation" parameter which might be "toggle", "show" or "hide".
+            Returns to the caller before the modal has actually been shown or hidden (i.e. before the shown.bs.modal or hidden.bs.modal event occurs). 
+            </summary>
+            <param name="instance">The jQuery object with a modal or modals</param>
+            <param name="options">The options</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Modal(Bridge.jQuery2.jQuery,System.String)">
+            <summary>
+            Either toggles, shows or hides a modal. Depends on the "operation" parameter which might be "toggle", "show" or "hide".
+            Returns to the caller before the modal has actually been shown or hidden (i.e. before the shown.bs.modal or hidden.bs.modal event occurs). 
+            </summary>
+            <param name="instance">The jQuery object with a modal or modals</param>
+            <param name="operation">The operation to be done. Either "toggle", "show" or "hide.</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Modal(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.ModalOperation)">
+            <summary>
+            Either toggles, shows or hides a modal. Depends on the "operation" parameter which might be "toggle", "show" or "hide".
+            Returns to the caller before the modal has actually been shown or hidden (i.e. before the shown.bs.modal or hidden.bs.modal event occurs). 
+            </summary>
+            <param name="instance">The jQuery object with a modal or modals</param>
+            <param name="operation">The operation to be done. Either "toggle", "show" or "hide.</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.ModalHide(Bridge.jQuery2.jQuery)">
+            <summary>
+            Hides a modal. Returns to the caller before the modal has actually been hidden (i.e. before the hidden.bs.modal event occurs).
+            </summary>
+            <param name="instance">The jQuery object with a modal or modals</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.ModalShow(Bridge.jQuery2.jQuery)">
+            <summary>
+            Opens a modal. Returns to the caller before the modal has actually been shown (i.e. before the shown.bs.modal event occurs).
+            </summary>
+            <param name="instance">The jQuery object with a modal or modals</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.ModalToggle(Bridge.jQuery2.jQuery)">
+            <summary>
+            Toggles a modal. Returns to the caller before the modal has actually been shown or hidden (i.e. before the shown.bs.modal or hidden.bs.modal event occurs).
+            </summary>
+            <param name="instance">The jQuery object with a modal or modals</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Tab(Bridge.jQuery2.jQuery,System.String)">
+            <summary>
+            Does something with a tab. Actully, the only operation is supported - 'show'. It activates a tab element and content container. Tab should have either a data-target or an href targeting a container node in the DOM. 
+            </summary>
+            <param name="instance">The jQuery object with a tab</param>
+            <param name="operation">The operation to be done. The only one is actually supported - "show".</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Tab(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.TabOperation)">
+            <summary>
+            Does something with a tab. Actully, the only operation is supported - 'show'. It activates a tab element and content container. Tab should have either a data-target or an href targeting a container node in the DOM. 
+            </summary>
+            <param name="instance">The jQuery object with a tab</param>
+            <param name="operation">The operation to be done. The only one is actually supported - "show".</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.TabShow(Bridge.jQuery2.jQuery)">
+            <summary>
+            Activates a tab element and content container. Tab should have either a data-target or an href targeting a container node in the DOM. 
+            </summary>
+            <param name="instance">The jQuery object with a tab</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Tooltip(Bridge.jQuery2.jQuery)">
+            <summary>
+            Enables the Bootstrap Tooltip functionality on an element collection.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Tooltip(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.TooltipOptions)">
+            <summary>
+            Attaches a tooltip handler to an element collection.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="options">The options</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Tooltip(Bridge.jQuery2.jQuery,System.String)">
+            <summary>
+            Does something with a tooltip - "show", "hide", "toggle" or "destroy".
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="operation">The operation to be done</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.Tooltip(Bridge.jQuery2.jQuery,Bridge.Bootstrap3.PopupOperation)">
+            <summary>
+            Does something with a tooltip - "show", "hide", "toggle" or "destroy".
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <param name="operation">The operation to be done</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.TooltipDestroy(Bridge.jQuery2.jQuery)">
+            <summary>
+            Hides and destroys an element's tooltip.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.TooltipHide(Bridge.jQuery2.jQuery)">
+            <summary>
+            Hides an element's tooltip.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.TooltipShow(Bridge.jQuery2.jQuery)">
+            <summary>
+            Reveals an element's tooltip.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="M:Bridge.Bootstrap3.Bootstrap.TooltipToggle(Bridge.jQuery2.jQuery)">
+            <summary>
+            Toggles an element's tooltip.
+            </summary>
+            <param name="instance">The jQuery object</param>
+            <returns>The jQuery object</returns>
+        </member>
+        <member name="T:Bridge.Bootstrap3.AffixOffset">
+            <summary>
+            Affix offset
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.AffixOffset.Bottom">
+            <summary>
+            Bottom offset
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.AffixOffset.Top">
+            <summary>
+            Top offset
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.AffixOptions">
+            <summary>
+            Affix options
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.AffixOptions.Offset">
+            <summary>
+            Pixels to offset from screen when calculating position of scroll. If a single number is provided, the offset will be applied in both top and bottom directions. To provide a unique, bottom and top offset just provide an object offset: { top: 10 } or offset: { top: 10, bottom: 5 }. Use a function when you need to dynamically calculate an offset.
+            Defaults to 10.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.AffixOptions.Target">
+            <summary>
+            Specifies the target element of the affix. Either a selector string, a DOM element or a jQuery object.
+            Defaults to the window object.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.AffixEvent">
+            <summary>
+            Affix events
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.AffixEvent.Affix">
+            <summary>
+            This event fires immediately before the element has been affixed.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.AffixEvent.Affixed">
+            <summary>
+            This event is fired after the element has been affixed.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.AffixEvent.AffixTop">
+            <summary>
+            This event fires immediately before the element has been affixed-top.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.AffixEvent.AffixedTop">
+            <summary>
+            This event is fired after the element has been affixed-top.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.AffixEvent.AffixBottom">
+            <summary>
+            This event fires immediately before the element has been affixed-bottom.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.AffixEvent.AffixedBottom">
+            <summary>
+            This event is fired after the element has been affixed-bottom.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.AlertOperation">
+            <summary>
+            Possible operations on an alert
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.AlertOperation.Close">
+            <summary>
+            Closes an alert
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.AlertEvents">
+            <summary>
+            Alert events
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.ButtonOperation">
+            <summary>
+            Possible operations on a button
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.ButtonOperation.Loading">
+            <summary>
+            Sets button state to loading - disables button and swaps text to loading text. Loading text should be defined on the button element using the data attribute data-loading-text. 
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.ButtonOperation.Reset">
+            <summary>
+            Resets button state - swaps text to original text.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.ButtonOperation.Toggle">
+            <summary>
+            Toggles push state. Gives the button the appearance that it has been activated.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.CarouselOptions">
+            <summary>
+            Carousel options
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.CarouselOptions.Interval">
+            <summary>
+            The amount of time to delay between automatically cycling an item. If false, carousel will not automatically cycle.
+            Defaults to 5000.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.CarouselOptions.Pause">
+            <summary>
+            Pauses the cycling of the carousel on mouseenter and resumes the cycling of the carousel on mouseleave.
+            Defaults to "hover".
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.CarouselOptions.Wrap">
+            <summary>
+            Whether the carousel should cycle continuously or have hard stops.
+            Defaults to true.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.CarouselOperation">
+            <summary>
+            Carousel operations
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.CarouselOperation.Cycle">
+            <summary>
+            Cycles through the carousel items from left to right.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.CarouselOperation.Next">
+            <summary>
+            Cycles to the next item.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.CarouselOperation.Pause">
+            <summary>
+            Stops the carousel from cycling through items.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.CarouselOperation.Prev">
+            <summary>
+            Cycles to the previous item.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.CarouselEvent">
+            <summary>
+            Carousel events.
+            Both  events have the following additional properties:
+                - direction: The direction in which the carousel is sliding (either "left" or "right").
+                - relatedTarget: The DOM element that is being slid into place as the active item.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.CarouselEvent.Slid">
+            <summary>
+            This event is fired when the carousel has completed its slide transition.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.CarouselEvent.Slide">
+            <summary>
+            This event fires immediately when the slide instance method is invoked.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.CollapseOptions">
+            <summary>
+            Collapse options
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.CollapseOptions.Parent">
+            <summary>
+            If selector then all collapsible elements under the specified parent will be closed when this collapsible item is shown. (similar to traditional accordion behavior - this dependent on the panel class)
+            Defaults to no parent.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.CollapseOptions.Toggle">
+            <summary>
+            Toggles the collapsible element on invocation
+            Defaults to true.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.CollapseOperation">
+            <summary>
+            Collapse operations
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.CollapseOperation.Hide">
+            <summary>
+            Hides a collapsible element.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.CollapseOperation.Show">
+            <summary>
+            Shows a collapsible element.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.CollapseOperation.Toggle">
+            <summary>
+            Toggles a collapsible element to shown or hidden.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.CollapseEvent">
+            <summary>
+            Collapse events
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.CollapseEvent.Hide">
+            <summary>
+            This event is fired immediately when the hide method has been called. 
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.CollapseEvent.Hidden">
+            <summary>
+            This event is fired when a collapse element has been hidden from the user (will wait for CSS transitions to complete).
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.CollapseEvent.Show">
+            <summary>
+            This event fires immediately when the show instance method is called.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.CollapseEvent.Shown">
+            <summary>
+            This event is fired when a collapse element has been made visible to the user (will wait for CSS transitions to complete).
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.PopoverEvent">
+            <summary>
+            Popover events
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.PopoverEvent.Hide">
+            <summary>
+            This event is fired immediately when the hide instance method has been called.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.PopoverEvent.Hidden">
+            <summary>
+            This event is fired when the popover has finished being hidden from the user (will wait for CSS transitions to complete).
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.PopoverEvent.Show">
+            <summary>
+            This event fires immediately when the show instance method is called.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.PopoverEvent.Shown">
+            <summary>
+            This event is fired when the popover has been made visible to the user (will wait for CSS transitions to complete).
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.PopupOperation">
+            <summary>
+            Operations on a tooltip/popover
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.PopupOperation.Destroy">
+            <summary>
+            Hides and destroys an element's tooltip/popover.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.PopupOperation.Hide">
+            <summary>
+            Hides an element's tooltip/popover.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.PopupOperation.Show">
+            <summary>
+            Reveals an element's tooltip/popover.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.PopupOperation.Toggle">
+            <summary>
+            Toggles an element's tooltip/popover.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.PopupDelay">
+            <summary>
+            Tooltip/popover delay
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopupDelay.Hide">
+            <summary>
+            A delay for hiding of a tooltip/popover
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopupDelay.Show">
+            <summary>
+            A delay for showing of a tooltip/popover
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.PopupPlacement">
+            <summary>
+            Tooltip/popover placement
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.PopupTrigger">
+            <summary>
+            Tooltip/popover trigger
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.PopupViewport">
+            <summary>
+            Tooltip/popover viewport
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopupViewport.Selector">
+            <summary>
+            Selector
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopupViewport.Padding">
+            <summary>
+            Padding
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.PopupOptions">
+            <summary>
+            A base class for a tooltip and a popover options
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopupOptions.Animation">
+            <summary>
+            Apply a CSS fade transition to the tooltip/popover.
+            Defaults to true.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopupOptions.Container">
+            <summary>
+            Appends the tooltip/popover to a specific element. 
+            Example: container: 'body'. This option is particularly useful in that it allows you to position the tooltip/popover in the flow of the document near the triggering element - which will prevent the tooltip/popover from floating away from the triggering element during a window resize.
+            Defaults to false.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopupOptions.Delay">
+            <summary>
+            Delay showing and hiding the tooltip/popover (ms) - does not apply to manual trigger type.
+            If a number is supplied, delay is applied to both hide/show
+            Object structure is: delay: { show: 500, hide: 100 }
+            Defaults to 0.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopupOptions.Html">
+            <summary>
+            Insert HTML into the tooltip/popover. If false, jQuery's text method will be used to insert content into the DOM. Use text if you're worried about XSS attacks.
+            Defaults to false.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopupOptions.Placement">
+            <summary>
+            How to position the tooltip/popover - top | bottom | left | right | auto.
+            When "auto" is specified, it will dynamically reorient the tooltip/popover. For example, if placement is "auto left", the tooltip/popover will display to the left when possible, otherwise it will display right.
+            You can define a function which returns a placement string. The two arguments are passed to a function - a tooltip/popover and a target DOM elements.
+            Defaults to 'top'.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopupOptions.Selector">
+            <summary>
+            If a selector is provided, tooltip/popover objects will be delegated to the specified targets. In practice, this is used to enable dynamic HTML content to have tooltips/popovers added. 
+            See this Issue: https://github.com/twbs/bootstrap/issues/4215
+            and an informative example: http://jsfiddle.net/fScua/
+            Defaults to no selector.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopupOptions.Title">
+            <summary>
+            Default title value if title attribute isn't present.
+            If a function is given, you can access the element that the popover is attached to via the "this" reference (Script.This&lt;Element&gt;()).
+            Defaults to "".
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopupOptions.Trigger">
+            <summary>
+            How tooltip/popover is triggered - click | hover | focus | manual. You may pass multiple triggers; separate them with a space.
+            Defaults to "hover focus" for a tooltip and "click" for a popover.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopupOptions.Viewport">
+            <summary>
+            Keeps the tooltip within the bounds of this element. Example: viewport: '#viewport' or { selector: '#viewport', padding: 0 }
+            Defaults to { selector: 'body', padding: 0 }.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.TooltipOptions.Template">
+            <summary>
+            Base HTML to use when creating the tooltip.
+            The tooltip's title will be injected into the .tooltip-inner.
+            .tooltip-arrow will become the tooltip's arrow.
+            The outermost wrapper element should have the .tooltip class.
+            Defaults to 
+                <div class="tooltip" role="tooltip">
+                    <div class="tooltip-arrow">
+                    </div>
+                    
+                    <div class="tooltip-inner">
+                    </div>
+                </div>
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.PopoverOptions">
+            <summary>
+            Popover options
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopoverOptions.Content">
+            <summary>
+            Default content value if data-content attribute isn't present.
+            If a function is given, you can access the element that the popover is attached to via the "this" reference (Script.This&lt;Element&gt;()).
+            Defaults to ''.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.PopoverOptions.Template">
+            <summary>
+            Base HTML to use when creating the popover.
+            The popover's title will be injected into the .popover-title.
+            The popover's content will be injected into the .popover-content.
+            .arrow will become the popover's arrow.
+            The outermost wrapper element should have the .popover class.
+            Defaults to 
+                <div class="popover" role="tooltip">
+                    <div class="arrow">
+                    </div>
+                    <h3 class="popover-title">
+                    </h3>
+                    <div class="popover-content">
+                    </div>
+                </div>
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.ScrollSpyOptions">
+            <summary>
+            ScrollSpy options
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.ScrollSpyOptions.Target">
+            <summary>
+            The string selector of the target.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.ScrollSpyOptions.Offset">
+            <summary>
+            Pixels to offset from top when calculating position of scroll.
+            Defaults to 10.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.ScrollSpyOperation">
+            <summary>
+            Possible operations on a scrollspy
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.ScrollSpyOperation.Refresh">
+            <summary>
+            Refreshes the ScrollSpy element. It should be done if adding or removing of elements from the DOM.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.ScrollSpyEvent">
+            <summary>
+            ScrollSpy events
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.ScrollSpyEvent.Activate">
+            <summary>
+            This event fires whenever a new item becomes activated by the scrollspy.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.DropdownOperation">
+            <summary>
+            Possible operations on a dropdown
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.DropdownOperation.Toggle">
+            <summary>
+            Toggles the dropdown menu of a given navbar or tabbed navigation.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.DropdownEvent">
+            <summary>
+            Events of a dropdown
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.DropdownEvent.Show">
+            <summary>
+            This event fires immediately when the show instance method is called. The toggling anchor element is available as the relatedTarget property of the event.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.DropdownEvent.Shown">
+            <summary>
+             	This event is fired when the dropdown has been made visible to the user (will wait for CSS transitions, to complete). The toggling anchor element is available as the relatedTarget property of the event.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.DropdownEvent.Hide">
+            <summary>
+            This event is fired immediately when the hide instance method has been called. The toggling anchor element is available as the relatedTarget property of the event.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.DropdownEvent.Hidden">
+            <summary>
+            This event is fired when the dropdown has finished being hidden from the user (will wait for CSS transitions, to complete). The toggling anchor element is available as the relatedTarget property of the event.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.ModalOperation">
+            <summary>
+            Possible operations on a modal
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.ModalOperation.Hide">
+            <summary>
+            Hides a modal. Returns to the caller before the modal has actually been hidden (i.e. before the hidden.bs.modal event occurs).
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.ModalOperation.Show">
+            <summary>
+            Opens a modal. Returns to the caller before the modal has actually been shown (i.e. before the shown.bs.modal event occurs).
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.ModalOperation.Toggle">
+            <summary>
+            Toggles a modal. Returns to the caller before the modal has actually been shown or hidden (i.e. before the shown.bs.modal or hidden.bs.modal event occurs).
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.ModalOptions">
+            <summary>
+            Modal options
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.ModalOptions.Backdrop">
+            <summary>
+            Includes a modal-backdrop element. Alternatively, specify static for a backdrop which doesn't close the modal on click.
+            It might be the boolean or the string 'static'
+            Defaults to true.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.ModalOptions.Keyboard">
+            <summary>
+            Closes the modal when escape key is pressed.
+            Defaults to true.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.ModalOptions.Show">
+            <summary>
+            Shows the modal when initialized.
+            Defaults to true.
+            </summary>
+        </member>
+        <member name="P:Bridge.Bootstrap3.ModalOptions.Path">
+            <summary>
+            If a remote URL is provided, content will be loaded one time via jQuery's load method and injected into the .modal-content div.
+            Defaults to false.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.ModalEvent">
+            <summary>
+            Events of a modal
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.ModalEvent.Hide">
+            <summary>
+            This event is fired immediately when the hide instance method has been called.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.ModalEvent.Hidden">
+            <summary>
+            This event is fired when the modal has finished being hidden from the user (will wait for CSS transitions to complete).
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.ModalEvent.Loaded">
+            <summary>
+            This event is fired when the modal has loaded content using the remote option.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.ModalEvent.Show">
+            <summary>
+            This event fires immediately when the show instance method is called. If caused by a click, the clicked element is available as the relatedTarget property of the event.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.ModalEvent.Shown">
+            <summary>
+            This event is fired when the modal has been made visible to the user (will wait for CSS transitions to complete). If caused by a click, the clicked element is available as the relatedTarget property of the event.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.TabOperation">
+            <summary>
+            Possible operations on a tab
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.TabOperation.Show">
+            <summary>
+            Activates a tab element and content container. Tab should have either a data-target or an href targeting a container node in the DOM. 
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.TabEvent">
+            <summary>
+            Tab events
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.TabEvent.Show">
+            <summary>
+            This event fires on tab show, but before the new tab has been shown. Use event.target and event.relatedTarget to target the active tab and the previous active tab (if available) respectively.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.TabEvent.Shown">
+            <summary>
+             	This event fires on tab show after a tab has been shown. Use event.target and event.relatedTarget to target the active tab and the previous active tab (if available) respectively.
+            </summary>
+        </member>
+        <member name="T:Bridge.Bootstrap3.TooltipEvent">
+            <summary>
+            Tooltip events
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.TooltipEvent.Hide">
+            <summary>
+            This event is fired immediately when the hide instance method has been called.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.TooltipEvent.Hidden">
+            <summary>
+            This event is fired when the tooltip has finished being hidden from the user (will wait for CSS transitions to complete).
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.TooltipEvent.Show">
+            <summary>
+            This event fires immediately when the show instance method is called.
+            </summary>
+        </member>
+        <member name="F:Bridge.Bootstrap3.TooltipEvent.Shown">
+            <summary>
+            This event is fired when the tooltip has been made visible to the user (will wait for CSS transitions to complete).
+            </summary>
+        </member>
+    </members>
+</doc>
