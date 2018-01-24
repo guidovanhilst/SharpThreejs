@@ -7,5 +7,5 @@ This project is a c# type library for theejs
 
 For more Bridge.Net / Threejs stuf see:
 
-[OpenCascade Explorer](http://www.creativecadtechnology.com/OCC/ShowScript?userName=guido&groupName=demo&scriptName=ggg) | Made with Bridge.Net
+[OpenCascade Explorer](http://www.creativecadtechnology.com/OCC/ShowScript?userName=github&groupName=demo&scriptName=ggg) | Made with Bridge.Net
 
